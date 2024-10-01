@@ -1,0 +1,52 @@
+CREATE DATABASE IF NOT EXISTS vehicle_transfer_management;
+
+USE vehicle_transfer_management;
+
+-- Table: roles
+CREATE TABLE IF NOT EXISTS roles (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    role_name VARCHAR(50) NOT NULL
+);
+
+-- Insert roles
+INSERT INTO roles (role_name) VALUES ('Admin'), ('User');
+
+-- Table: users
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL,
+    role_id INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (role_id) REFERENCES roles(id)
+);
+
+-- Table: cars (for example purposes)
+CREATE TABLE IF NOT EXISTS cars (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    car_name VARCHAR(100) NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Table: transfers (for managing car transfers)
+CREATE TABLE IF NOT EXISTS transfers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    car_id INT NOT NULL,
+    transfer_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (car_id) REFERENCES cars(id)
+);
+
+GRANT ALL PRIVILEGES ON vehicle_transfer_management.* TO 'admin'@'localhost';
+FLUSH PRIVILEGES;
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ado123
+adol1234@gmail.com
+password: vbnm
+
+'admin', 'admien@example.com', 'hashedpassword', 1), -- Admin
+    ('user1', 'user1@example.com', 'hashedpassword', 2), -- Regular user

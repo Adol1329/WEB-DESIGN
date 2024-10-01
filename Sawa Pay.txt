@@ -1,0 +1,115 @@
+Project Brief : Payroll and HR Management System
+
+A Fintech company that is developing a Digital Financial Platform designed for businesses and their workforce in Africa is partnering with Umurava to run a Skills Challenge for Product Design. This Fintech Company offers Payroll Management System to Employers and Embedded Financial services and products to Employees and Gig Workers across Africa.
+Tasks: 
+Product Requirements:
+UX research to understand Project Requirements 
+Understanding User Needs
+Understanding Business Goals 
+Determine interaction between users 
+Requirements Catalog
+
+Product Design:
+User Interface Design for each step 
+Creating wireframes to outline the basic structure and layout of the web and mobile app.
+Designing visually appealing and user-friendly interfaces for the web and mobile apps focusing on usability and user experience.
+Ensuring the web application works seamlessly across web, mobile, and tablet devices.
+Provide a feedback session for in-development guidance
+
+Deliverables
+
+Requirements Catalog and User Interaction Diagram
+User Interface Mockups 
+Payroll and HR System Design Completed
+Documentation 
+
+The Product Designer will provide all documents and deliverables to the client before the review meetings
+NOTE: 
+Find Product Requirements Summary and Features Description for Saway Pay
+-----------------------------------
+
+Sawa Pay Features/Modules 
+
+
+Sawa Pay  Payroll
+
+
+
+Features/Modules:
+
+Onboarding (Employee & Contractor Registration):
+Employee Profiles: Store personal information, job titles, department, and bank details. all info to be considered in employee profile are :First Name	Second Name	Email	Phone Contact	Employee ID	National ID/Passport	Start Date	Department	Job Tittle	Currency	Monthly Gross	Bank Name	Account Number/IBAN	SWIFT Code	Domicile	Wallet Address										
+Button 1: Single Employee Onboarding to click and access the onboarding form
+Button 2: Multiple Employee onboarding… two options: to download our google sheet & excel template for importing multiple employees or access onboarding form for registration. 
+
+Employee Management (Employees):
+Employee Profiles: Store personal information, job titles, department, and bank details.  all info to be considered in employee profile are First Name	Second Name	Email	Phone Contact	Employee ID	National ID/Passport	Start Date	Department	Job Tittle	Currency	Monthly Gross	Bank Name	Account Number/IBAN	SWIFT Code	Domicile	Wallet Address										
+Tax Information: Collect and manage tax details, including tax forms information. 
+Benefits Management: Track and manage employee benefits such as health insurance, retirement plans, and other perks.
+Functionalities (
+
+View Employees: A user should be able to get a form that collects all information needed from an employee and once the user finishes to fill out the form, the employee should be added to the table. 
+Invite Employees: Add, edit, and delete employee profiles. There might be a form to fill out when adding employees and there should be a table for employee profiles so that when a user needs to edit and delete employees, it is enabled. 
+Department: A user should be able to see department name, total employees in the department, and department lead. The department should be presented in the table format. There should be a button to view the department members. There should also be the button for deleting and editing department names. 
+
+Contractor Management (Contractors)
+Contractor Profiles: Store personal information, contract terms, and payment details
+Invoice Management: Allow contractors to submit invoices for work completed 
+Contract Terms Tracking: Monitor contract start/end dates, payment rates, and deliverables
+Tax Information: Collect and manage contractor tax details
+Payroll Processing
+Automated Payroll Calculations: Calculate gross pay, deductions, taxes, and net pay. This has to be shown in a table 
+Pay Schedules: Support multiple pay schedules (Weekly, bi-weekly, monthly).
+Direct Deposit: Facilitate direct deposit payments to employee and contractor bank accounts.
+Payroll History 
+Payroll Adjustements: Handle adjustements for bonuses, overtime, deductions, and reimbursements.
+Payslip Generation
+Payroll Approval
+Deductions
+Expense reimbursement
+Bonuses 
+Off-cycle payments: Manage off-cycle payroll runs for special payments or corrections.
+Define pay schedules (weekly, bi-weekly, monthly).
+Manage various pay types (salary, hourly, commissions, bonuses, )
+Automate tax calculations 
+Generate paystubs with detailed breakdown of earnings  and deductions
+Facilitate direct deposit and paper check options
+Reporting & Analytics:
+Generate payroll reports (by employee/contract, pay period like months and year, etc)
+Track payroll costs and liabilities 
+Access tax reports for filling purposes 
+Dashboard:
+Total Employees 
+Total Contractors
+Payroll History: Salary, Taxes, Benefits, Pensions) (This Year, Last Year, Last Month, This Month, Last 3 Months, Last 6 Months, Last 12 Months)
+Payroll Summary: Total Salaries Processed, (Payment, Paid, Pending), Upcoming Payroll, Previous Payroll, PayDay 
+Recent payroll: Employee Name-Role, Salary, Status 
+Company Account (Employer Profile):
+Company Name
+Name of Company Admin
+Email of Company Admin
+Country
+City
+Company Industry
+Manage Admins 
+Company Pension Code
+Date Joined 
+
+
+Option Features: The No 8 and 9 Are Optional 
+
+Self-Service Portal: 
+Employee Access: Allow employees to view pay stubs, tax documents, and benefits information.
+Contractor Access: Allow contractors to view payment history, submit invoices, and update tax information
+Document Management: Provide access to important payroll documents and forms. 
+
+Time & Attendance 
+Allow employees to submit timesheets (manual entry or integration)
+Track regular hours, overtime, and paid time off
+Manage leave requests and accruals 
+----------------------------------------------------------------------------
+
+Onboarding_Employee profiles_sawa pay
+First Name	Second Name	Email	Phone Contact	Employee ID	National ID/Passport	Start Date	Department	Job Tittle	Currency	Monthly Gross	Bank Name	Account Number/IBAN	SWIFT Code	Domicile	Wallet Address										
+
+First Name	Second Name	Email	Phone Contact	Employee ID	National ID/Passport	Start Date	Department	Job Tittle	Currency	Monthly Gross	Bank Name	Account Number/IBAN	SWIFT Code	Domicile	Wallet Address										
